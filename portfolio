@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theva - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+            font-size: 18px;
+        }
+        section {
+            padding: 20px;
+            margin: 0 10%;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Theva</h1>
+        <p>Motivated IT Diploma Student | Aspiring Developer</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a motivated Diploma in Information Technology student seeking an internship opportunity to apply my skills in IT support, programming, and web development. Eager to gain practical experience in a dynamic work environment and contribute to meaningful projects while enhancing my technical abilities.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><b>Online Portfolio Website:</b> Designed and developed a responsive personal portfolio website using HTML, CSS, and JavaScript.</li>
+            <li><b>Library Management System:</b> Created a system using Python and SQLite to manage book inventory and user records.</li>
+            <li><b>E-Commerce Demo:</b> Developed a mock e-commerce site with basic product listings and a shopping cart feature using PHP and MySQL.</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:theva29@gmail.com">theva29@gmail.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Theva. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
